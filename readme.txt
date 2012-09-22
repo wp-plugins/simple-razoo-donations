@@ -4,14 +4,16 @@ Tags: razoo, donation, shortcode, donate, forms
 Requires at least: 2.8
 Tested up to: 3.4.2
 Stable tag: trunk
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simple Razoo Donations allows you to easily embed the [Razoo Donation Widget](http://www.razoo.com/p/donationWidget Razoo Donation Widget) and accept donations on your website without typing a line of code.
+Simple Razoo Donations allows you to easily embed the [Razoo Donation Widget](http://www.razoo.com/p/donationWidget "Razoo Donation Widget") and accept donations on your website without typing a line of code.
 
 == Description ==
 
 **Why is the Simple Razoo Donations Plugin Helpful?**
 
-* You can easily include the [Razoo Donation Widget](http://www.razoo.com/p/donationWidget Razoo Donation Widget) on your website and start accepting donations without typing any code at all.
+* You can easily include the [Razoo Donation Widget](http://www.razoo.com/p/donationWidget "Razoo Donation Widget") on your website and start accepting donations without typing any code at all.
 * You can place the donation form into the middle of any post or page using a button within the WordPress editor.  The donation form is added right into the editor as a WordPress shortcode that looks like "[razoo_donation_form]".
 * The detailed settings page allows you to easily update the content, design and donation options.
 * Since the donation form is embedded within the settings page, you can see any adjustments immediately after making updates and saving your changes.
@@ -29,7 +31,7 @@ A special thanks to [Zaus](http://profiles.wordpress.org/zaus/) and [AtlanticBT]
 
 **Visit the Plugin's Webpage**
 
-For more details about using the plugin visit [http://wiredimpact.com/simple-razoo-donations/](http://wiredimpact.com/simple-razoo-donations/ Simple Razoo Donations Webpage).
+For more details about using the plugin visit [http://wiredimpact.com/simple-razoo-donations/](http://wiredimpact.com/simple-razoo-donations/ "Simple Razoo Donations Webpage").
 
 
 == Installation ==
@@ -64,11 +66,11 @@ If you want to put different versions of the donation form on different pages of
 
 Here is a breakdown of how to use each attribute:
 
-* id: The ID for your organization according to Razoo. When on your organization's landing page it's the text that comes right after "/story/" in the URL. For example, the United Way of America's ID is "United-Way-Of-America". You can view their ID at [http://www.razoo.com/story/United-Way-Of-America](http://www.razoo.com/story/United-Way-Of-America United Way of America at Razoo).
+* id: The ID for your organization according to Razoo. When on your organization's landing page it's the text that comes right after "/story/" in the URL. For example, the United Way of America's ID is "United-Way-Of-America". You can view their ID at [http://www.razoo.com/story/United-Way-Of-America](http://www.razoo.com/story/United-Way-Of-America "United Way of America at Razoo").
 * title: The title will show up in big letters at the top of the donation form.
 * short_description: A short description of your organization or an ask for people to donate. This text shows up just below the title.
 * long_description: This is also called the "more info" section and can be much longer, describing more about your organization and where the donors' money will go. This text shows up when users click the "More info" link on the donation form.
-* color: Provide the color you want for the donation form in [hexadecimal format (#000000)](http://www.w3schools.com/html/html_colors.asp Hexadecimal Tutorial). You should match this closely to your website's colors.
+* color: Provide the color you want for the donation form in [hexadecimal format (#000000)](http://www.w3schools.com/html/html_colors.asp "Hexadecimal Tutorial"). You should match this closely to your website's colors.
 * image: use "true" to show the main image for your organization on the donation form.
 * donation_options: Add the donation options you want to offer potential donors within a pipe (|) separated list of values and labels (ie. donation_options="20=Donor|30=Sponsor|50=All Star Contributor")
 
@@ -91,3 +93,5 @@ To add the shortcode directly to a template file use the code:
 
 = 0.1 =
 * Initial release
+
+== Upgrade Notice ==
