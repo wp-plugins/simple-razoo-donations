@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simple Razoo Donations allows you to easily embed the [Razoo Donation Widget](http://www.razoo.com/p/donationWidget "Razoo Donation Widget") and accept donations on your website without typing a line of code.
+Simple Razoo Donations allows you to easily embed the Razoo Donation Widget and accept donations on your website without typing a line of code.
 
 == Description ==
 
