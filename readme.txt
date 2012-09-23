@@ -91,7 +91,13 @@ To add the shortcode directly to a template file use the code:
 
 == Changelog ==
 
+= 0.1.1 =
+* Fixed "Settings" link on plugins page to point correctly.
+
 = 0.1 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 0.1.1 =
+This version fixes bug where "Settings" link on plugins page didn't point correctly.

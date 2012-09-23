@@ -31,7 +31,7 @@ class razoo_settings_page {
 
     return array_merge(
       array(
-        'settings' => '<a href="' . get_bloginfo( 'wpurl' ) . '/wp-admin/options-general.php?page=razoo-donation-form-settings">' . __('Settings') . '</a>'
+        'settings' => '<a href="' . get_bloginfo( 'wpurl' ) . '/wp-admin/options-general.php?page=simple-razoo-donations-settings">' . __('Settings') . '</a>'
       ),
       $links
     );
