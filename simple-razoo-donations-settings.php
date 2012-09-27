@@ -17,7 +17,6 @@ class razoo_settings_page {
     add_action('admin_menu', array($this, 'add_settings_page'));
     add_action('admin_init', array($this, 'settings_init'));
     add_action('admin_head', array($this, 'custom_admin_css'));
-    add_action('admin_head', array($this, 'add_styles_scripts'));
     add_filter( 'plugin_action_links_' . RAZOO_DONATION_BASENAME, array($this, 'add_plugin_settings_link'), 10, 2);
   }
   

@@ -91,6 +91,9 @@ To add the shortcode directly to a template file use the code:
 
 == Changelog ==
 
+= 0.1.2 =
+* Removed duplicate calling of a javascript file for the settings page.
+
 = 0.1.1 =
 * Fixed "Settings" link on plugins page to point correctly.
 
@@ -98,6 +101,9 @@ To add the shortcode directly to a template file use the code:
 * Initial release
 
 == Upgrade Notice ==
+
+= 0.1.2 =
+Upgrade to avoid possible issues with other plugins that load javascript in the admin side of WordPress.
 
 = 0.1.1 =
 This version fixes bug where "Settings" link on plugins page didn't point correctly.
