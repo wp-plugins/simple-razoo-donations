@@ -2,7 +2,7 @@
 Contributors: wiredimpact 
 Tags: razoo, donation, shortcode, donate, forms
 Requires at least: 2.8
-Tested up to: 3.4.2
+Tested up to: 3.5
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -58,6 +58,12 @@ Now that you've installed the plugin you're ready to add the donation form to yo
 
 Here are some frequently asked questions about how to use the plugin.
 
+= What do I need to do if I've never used Razoo before? =
+
+If you've never used Razoo before to collect donations it's probably best to find your organization by searching at [http://www.razoo.com/search](http://www.razoo.com/search "Razoo Search") and claim the admin access on your organization's page.
+
+By default, Razoo lists all 501(c)(3) organizations registered with the IRS, but if your organization isn't listed check out [http://www.razoo.com/p/faqs_nonprofits#getting_listed](http://www.razoo.com/p/faqs_nonprofits#getting_listed "Razoo Getting Listed") for instructions on how to add your nonprofit.
+
 = How do I customize the donation form for different pages? =
 
 If you want to put different versions of the donation form on different pages of your website, you can use shortcode attributes to override the default options you provided on the settings page. You only need to include attributes for the defaults you wish to override. For example, if every donation should go to the same organization, you will never need to use the "id" attribute in your shortcode. An example shortcode with all attributes looks like this:
@@ -90,6 +96,10 @@ To add the shortcode directly to a template file use the code:
 
 
 == Changelog ==
+
+= 0.1.3 =
+* Upgraded to the new WordPress color picker.
+* Added in further instructions on what to do if you've never used Razoo before.
 
 = 0.1.2 =
 * Removed duplicate calling of a javascript file for the settings page.

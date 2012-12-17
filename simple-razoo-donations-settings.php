@@ -190,7 +190,7 @@ class razoo_settings_page {
     $id = str_replace(' ', '-', sanitize_text_field($options['charity_id']));
     
     echo '<input id="id" name="razoo_options[charity_id]" type="text" value="' . $id .'" class="regular-text" />';
-    echo '<p class="description">' . __('This is the ID for your organization according to Razoo.  When on your organization\'s landing page it\'s the text that comes right after "/story/".  For example, the United Way of America\'s ID is "United-Way-Of-America".  You can view their ID at ') . '<a href="http://www.razoo.com/story/United-Way-Of-America" target="_blank">' . __('http://www.razoo.com/story/United-Way-Of-America') . '</a>.</p>';
+    echo '<p class="description">' . __('This is the ID for your organization according to Razoo.  When on your organization\'s landing page it\'s the text that comes right after "/story/".  For example, the United Way of America\'s ID is "United-Way-Of-America".  You can view their ID at ') . '<a href="http://www.razoo.com/story/United-Way-Of-America" target="_blank">' . __('http://www.razoo.com/story/United-Way-Of-America') . '</a>.  If you\'ve never used Razoo before you can find your nonprofit by searching at <a href="http://www.razoo.com/search" target="_blank">http://www.razoo.com/search</a>.</p>';
   }
   
   /**
@@ -234,7 +234,7 @@ class razoo_settings_page {
     $color = ($options['color'] != "") ? sanitize_text_field($options['color']) : '#3D9B0C';
     
     echo '<input id="color" name="razoo_options[color]" type="text" value="' . $color .'" />';
-    echo '<p class="description">' . __('Provide the color you want for the donation form in <a href="http://www.w3schools.com/html/html_colors.asp" target="_blank">hexadecimal format</a> (#000000).  You should match this closely to your website\'s colors.  You can also use the color picker below to make your selection.') . '</p>';
+    echo '<p class="description">' . __('Provide the color you want to use for the donation form using the color picker.  If possible, you should match this to one of your website\'s colors by using a <a href="http://www.w3schools.com/html/html_colors.asp" target="_blank">hexadecimal value</a> (#000000).') . '</p>';
     echo '<div id="colorpicker"></div>';
   }
   
@@ -372,8 +372,17 @@ class razoo_settings_page {
    * Enqueue the styles and scripts needed for the settings.
    */
   function add_styles_scripts(){
-    wp_enqueue_style( 'farbtastic' );
-    wp_enqueue_script( 'farbtastic' );
+    global $wp_version;
+    
+    if ( 3.5 <= $wp_version ){
+      wp_enqueue_style( 'wp-color-picker' );
+      wp_enqueue_script( 'wp-color-picker' );
+    }
+    else {
+      wp_enqueue_style( 'farbtastic' );
+      wp_enqueue_script( 'farbtastic' );
+    }
+    
     wp_enqueue_script('razoo-settings', RAZOO_DONATION_PLUGINFULLURL . 'js/settings.js');
   }
   
