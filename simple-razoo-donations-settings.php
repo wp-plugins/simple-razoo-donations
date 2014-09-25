@@ -5,7 +5,7 @@
  *
  * Creates a settings page for the plugin and handles saving the settings to the database.
  *
- * @version 0.1
+ * @version 0.1.4
  * @author Wired Impact (wiredimpact) - http://wiredimpact.com
  */
 class razoo_settings_page {

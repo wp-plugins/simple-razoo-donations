@@ -3,7 +3,7 @@
 Plugin Name: Simple Razoo Donations
 Plugin URI: http://wiredimpact.com/simple-razoo-donations/
 Description: Simple Razoo Donations allows you to easily embed the <a href='http://www.razoo.com/p/donationWidget'>Razoo Donation Widget</a> and accept donations on your website without typing a line of code.
-Version: 0.1.3
+Version: 0.1.4
 Author: Wired Impact
 Author URI: http://wiredimpact.com/
 License: GPLv2
