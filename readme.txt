@@ -2,7 +2,7 @@
 Contributors: wiredimpact 
 Tags: razoo, donation, shortcode, donate, forms
 Requires at least: 2.8
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -96,6 +96,12 @@ To add the shortcode directly to a template file use the code:
 
 
 == Changelog ==
+
+= 0.1.5 =
+* Tested up to WordPress 4.1
+
+= 0.1.4 =
+* Tested up to WordPress 4.0
 
 = 0.1.3 =
 * Upgraded to the new WordPress color picker.
